@@ -12,7 +12,7 @@ import os
 
 load_dotenv()
 
-api_key = os.getenv("GOOGLE_API_KEY")
+api_key = st.secrets["GOOGLE_API_KEY"]
 
 st.set_page_config(page_title="Document Genie", layout="wide")
 
